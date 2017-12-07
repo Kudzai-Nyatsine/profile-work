@@ -1,0 +1,162 @@
+html,body {
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+
+.clr {
+	clear: both;
+}
+
+#header {
+	background-color: grey;
+	height:80px;
+	background-color: #000;
+	padding-top: 18px;
+	box-sizing: border-box;
+}
+
+#header a {
+	text-decoration: none;
+	color: #fff;
+	margin-right: 28px;
+
+}
+
+#logo {
+	margin-bottom:30px;
+}
+
+
+#header a:hover {
+	color: #565d67;
+}
+
+.nav-group #active {
+	color: #e13a63;
+}
+
+.nav-group {
+	
+	padding-left: 200px;
+	font-size: 16px;
+}
+
+#wrapper {
+	width: 100%;
+	
+	
+}
+
+.main {
+	width: 965px;
+	margin-left: 130px;
+	margin-top: 36px;
+}
+
+.left-content {
+
+	width: 30%;
+	height: 532px;
+	text-align: center;
+	float: left;
+}
+
+.left-content img {
+	height: 50%;
+	margin-top: 10px;
+	border-radius: 100%;
+
+}
+
+.right-content {
+	float: right;
+	text-align: center;
+	width: 70%;
+}
+
+h1 {
+	font-size: 36px;
+	color:#E13A63;
+}
+
+h2 {
+	font-size: 26px;
+	color: #000;
+}
+
+.para {
+	padding: 10px;
+	line-height: 2;
+	font-family:arial;
+	font-size: 16px;
+	margin: 10px;
+}
+
+h4,h5 {
+	color: #333;
+	font-weight: lighter;
+	font-size: 16px;
+}
+
+.skills {
+	color: #E13A63;
+	font-size: 18px;
+}
+
+.info {
+	font-size: 16px;
+	color: #333;
+	line-height: 1.5;
+}
+
+.edu-heading {
+	font-size: 18px;
+	color: #e13a63;
+}
+
+#additional-skills {
+	margin-top: 164px;
+}
+
+.lists {
+	margin: 20px;
+	line-height: 1.5;
+}
+
+@media screen and (max-width: 960px) {
+.header {
+	width: 100%;
+	height: 100%;
+
+}
+.nav-group {
+	text-align: center;
+
+}
+.nav-group a {
+	display: block;
+	padding: 2px;
+	font-size: 16px;
+}
+
+#logo {
+	display: none;
+}
+	.main {
+		width: 100%;
+	}
+
+	.left-content {
+		float: none;
+		width: 100%;
+
+	}
+
+	.right-content {
+		width: 100%;
+		float: none;
+		padding-top: 200px;
+		margin: 0 auto;
+	}
+}
