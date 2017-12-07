@@ -1,0 +1,52 @@
+
+body {
+	font-family: 'Raleway',sans-serif;
+}
+
+.main {
+	/*background-color: grey;*/
+
+}
+
+.navbar-nav  li a {
+	color: #fff;
+}
+
+h1 {
+	color: #E13A63;
+}
+
+h4 {
+	color: #E13A63;
+}
+
+p {
+	line-height: 1.5;
+}
+
+.para {
+	line-height: 1.5;
+	font-size: 18px;
+}
+
+.profile {
+	padding-left: 30px;
+}
+
+.middle-sect {
+	/*background-color: grey;*/
+}
+
+.lists {
+	padding: 10px;
+	line-height: 1.5;
+}
+
+.lists li {
+	padding-bottom:23px;
+	line-height: 1.5;
+}
+
+.bottom-sect {
+	
+}
