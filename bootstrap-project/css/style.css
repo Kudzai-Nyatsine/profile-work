@@ -109,4 +109,9 @@ p {
 	padding-top: 20px;
 }
 
+@media screen and (max-width: 320px) {
+    .profile-img {
+        width: 50%;
+    }
+}
 
