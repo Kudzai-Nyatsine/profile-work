@@ -11,12 +11,17 @@ The website also consists of well structured layouts which were constructed usin
 
 # Technologies used
 
-*HTML 5
+* Used HTML 5 to structure the page
 
-*CSS3
+* Added CSS3 to style the layout and elements
 
-*Media queries - Responsive design 
+* Used Bootstrap 3 to helo with the responsiveness of the page
+
+* Included Media Query to allow the website to be accessed from mobile devices 
+* Used Javascript to enable the navigation icons to interact 
+
 
 # Tools used 
 
-*Git/Github 
+* Used Git to to share the porfolio on Github
+* used the command line to switch into different folders within the project
