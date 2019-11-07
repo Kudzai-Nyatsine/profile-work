@@ -1,0 +1,120 @@
+
+body {
+	font-family: 'Raleway',sans-serif;
+}
+
+
+h1 {
+	color: #E13A63;
+}
+
+h4 {
+	color: #E13A63;
+}
+
+p {
+	line-height: 1.5;
+}
+
+.para {
+	line-height: 1.5;
+	font-size: 18px;
+}
+
+.profile {
+	/*padding-left: 30px;*/
+}
+
+
+.main {
+	margin: 10px 0;
+}
+
+.lists {
+	padding: 10px;
+	line-height: 1.5;
+}
+
+.lists li {
+	padding-bottom:23px;
+	line-height: 1.5;
+}
+
+.profile-img {
+	 border-radius: 50%;
+    margin: 20px auto;
+    width: 100%;
+}
+
+
+.navbar {
+	margin-bottom: 0;
+	border-radius: 0;
+}
+
+.navbar-brand,
+.navbar-nav li a {
+    line-height: 50px;
+    height: 50px;
+    padding-top: 0px;
+}
+
+
+.navbar-header #logo {
+	width: 100px;
+	margin-top:7px;
+}
+
+.navbar-inverse {
+	background-color: #01181b;
+}
+
+.navbar-inverse .nav-bar{
+	padding: 7px 0;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+	color: #fff;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > li > a:focus {
+  color: #555;
+}
+
+.navbar-inverse .navbar-nav > li.active a,
+.navbar-inverse .navbar-nav > li.active a:hover {
+	color: #E13A63;
+	background-color: #01181b;
+}
+
+.navbar-inverse .navbar-nav > li.active a:hover {
+	color: #fff;
+}
+
+.top-projects {
+	padding-bottom: 42px;
+	padding-top: 50px;
+}
+.mid-projects {
+	padding-bottom: 42px;
+}
+
+.bottom-projects {
+	padding-bottom: 42px;
+}
+
+.project-image {
+	width: 100%;
+}
+
+.para_projects {
+	padding-top: 20px;
+}
+
+@media screen and (max-width: 320px) {
+    .profile-img {
+        width: 50%;
+    }
+}
+
